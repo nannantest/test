@@ -15,35 +15,35 @@ User's Guide
 Contents
 --------
 
-**Overview**
+**1. Overview**
 
-   **How Singleton works**
+   *** How Singleton works**
 
-   **Bnefits of using Singleton**
+   *** Bnefits of using Singleton**
 
-**Features and functionality**
+**2. Features and functionality**
 
-**Using Singleton**
+**3. Using Singleton**
 
-   **Downloading Singleton source code**
+   *** Downloading Singleton source code**
 
-   **Compiling Singleton source code**
+   *** Compiling Singleton source code**
 
-   **Running Singleton application**
+   *** Running Singleton application**
 
-**Creating the resource files**
+**4. Creating the resource files**
 
-**Enabling source collection on Singleton service**
+**5. Enabling source collection on Singleton service**
 
-**Enabling pseudotranslation on Singleton service**
+**6. Enabling pseudotranslation on Singleton service**
 
-**Singleton Service APIs**
+**7. Singleton Service APIs**
 
-**Singleton client libraries**
+**8. Singleton client libraries**
 
-   **Supported programming languages and web frameworks**
+   *** Supported programming languages and web frameworks**
 
-   **Integrating and using Singleton client library**
+   *** Integrating and using Singleton client library**
 
 Overview
 --------
@@ -97,7 +97,7 @@ Clone the repository to your environment using Git, by running the command `git 
 
 ### Compiling Singleton source code
 
-From the `singleton/g11n-ws` folder, run the build file using the Gradle command - `./gradlew build`.
+From the `singleton/g11n-ws` folder, generate the Singleton build file using the Gradle command - `./gradlew build`.
 
 The .jar files are generated in the `singleton/publish` location. For example:
 
