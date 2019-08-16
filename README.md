@@ -17,19 +17,19 @@ Contents
 
 **Overview**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How Singleton works**
+   **How Singleton works**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bnefits of using Singleton**
+   **Bnefits of using Singleton**
 
 **Features and functionality**
 
 **Using Singleton**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Downloading Singleton source code**
+   **Downloading Singleton source code**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Compiling Singleton source code**
+   **Compiling Singleton source code**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Running Singleton application**
+   **Running Singleton application**
 
 **Creating the resource files**
 
@@ -41,9 +41,9 @@ Contents
 
 **Singleton client libraries**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supported programming languages and web frameworks**
+   **Supported programming languages and web frameworks**
 
-**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Integrating and using Singleton client library**
+   **Integrating and using Singleton client library**
 
 Overview
 --------
