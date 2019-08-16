@@ -17,33 +17,33 @@ Contents
 
 **[Overview](#overview)**
 
-   * **How Singleton works**
+   * **[How Singleton works](#how-singleton-works)**
 
-   * **Bnefits of using Singleton**
+   * **[Benefits of using Singleton](#benefits-of-using-singleton)**
 
-**Features and functionality**
+**[Features and functionality](#features-and-functionality)**
 
-**Using Singleton**
+**[Using Singleton](#using-singleton)**
 
-   * **Downloading Singleton source code**
+   * **[Downloading Singleton source code](#downloading-singleton-source-code)**
 
-   * **Compiling Singleton source code**
+   * **[Compiling Singleton source code](#compiling-singleton-source-code)**
 
-   * **Running Singleton application**
+   * **[Running Singleton application](#running-singleton-application)**
 
-**Creating the resource files**
+**[Creating the resource files](#creating-the-resource-files)**
 
-**Enabling source collection on Singleton service**
+**[Enabling source collection on Singleton service](#enabling-source-collection-on-singleton-service)**
 
-**Enabling pseudotranslation on Singleton service**
+**[Enabling pseudotranslation on Singleton service](#enabling-pseudotranslation-on-singleton-service)**
 
-**Singleton Service APIs**
+**[Singleton Service APIs](#singleton-service-apis)**
 
-**Singleton client libraries**
+**[Singleton client libraries](#singleton-client-libraries)**
 
-   * **Supported programming languages and web frameworks**
+   * **[Supported programming languages and web frameworks](#supported-programming-languages-and-web-frameworks)**
 
-   * **Integrating and using Singleton client library**
+   * **[Integrating and using Singleton client library](#integrating-and-using-singleton-client-library)**
 
 Overview
 --------
@@ -74,8 +74,8 @@ Features and functionality
 Singleton offers the following features and functionality:
 
 * Singleton Core API - Provides RESTful web services for delivering localized resources.
-* Source collection - Offers a source collection feature for Singleton string-based For more information about how to use the feature, see section - **_Enabling source collection on Singleton service_**.
-* Pseudotranslation – Helps test product compatibility with locales before beginning the localization process. It automatically generates text that is designed to test various aspects of localization readiness, including character set support, UI design, and hardcoding. For more information about how to use the feature, see section - **_Enabling pseudo translation on Singleton service_**.
+* Source collection - Offers a source collection feature for Singleton string-based For more information about how to use the feature, see section - **_[Enabling source collection on Singleton service](#enabling-source-collection-on-singleton-service)_**.
+* Pseudotranslation – Helps test product compatibility with locales before beginning the localization process. It automatically generates text that is designed to test various aspects of localization readiness, including character set support, UI design, and hardcoding. For more information about how to use the feature, see section - **_[Enabling pseudo translation on Singleton service](#enabling-pseudotranslation-on-singleton-service)_**.
 
 Using Singleton
 ---------------
@@ -129,7 +129,6 @@ Creating the resource files
 To deploy Singleton source code and translation data files, you must first create or convert all the product resource files to JSON file.
 
 NOTE: If your product already has localized resource files, you must convert these files to JSON files manually to retain the existing translations. Please refer to the JSON file structure and folder structure from `singleton/publish/l10n/bundles`.
-
 
 Enabling source collection on Singleton service
 -----------------------------------------------
@@ -214,7 +213,7 @@ This tag indicates that the key and source string could not be found on Singleto
 
 * source without any tags
 
-This indicates that the string is hard code, not use Singleton.
+This indicates that the string is hard code, doesn't integrated with Singleton.
 
 Singleton Service APIs
 ----------------------
