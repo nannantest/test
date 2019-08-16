@@ -15,35 +15,35 @@ User's Guide
 Contents
 --------
 
-**1. Overview**
+**[Overview](#overview)**
 
-   *** How Singleton works**
+   * **How Singleton works**
 
-   *** Bnefits of using Singleton**
+   * **Bnefits of using Singleton**
 
-**2. Features and functionality**
+**Features and functionality**
 
-**3. Using Singleton**
+**Using Singleton**
 
-   *** Downloading Singleton source code**
+   * **Downloading Singleton source code**
 
-   *** Compiling Singleton source code**
+   * **Compiling Singleton source code**
 
-   *** Running Singleton application**
+   * **Running Singleton application**
 
-**4. Creating the resource files**
+**Creating the resource files**
 
-**5. Enabling source collection on Singleton service**
+**Enabling source collection on Singleton service**
 
-**6. Enabling pseudotranslation on Singleton service**
+**Enabling pseudotranslation on Singleton service**
 
-**7. Singleton Service APIs**
+**Singleton Service APIs**
 
-**8. Singleton client libraries**
+**Singleton client libraries**
 
-   *** Supported programming languages and web frameworks**
+   * **Supported programming languages and web frameworks**
 
-   *** Integrating and using Singleton client library**
+   * **Integrating and using Singleton client library**
 
 Overview
 --------
