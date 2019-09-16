@@ -1,5 +1,6 @@
 # v0.2.0
 ------
+
 [Documentation](#)
 
 ## Downloads for v0.2.0
@@ -52,5 +53,9 @@ Simple summary
 - swagger-ui has been updated to 2.9.2.([#128](https://github.com/vmware/singleton/pull/128))
 
 ### Unchanged
+-
+-
+
+## Deprecations and Removals
 -
 -
