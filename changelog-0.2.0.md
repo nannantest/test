@@ -7,18 +7,18 @@ v0.2.0
 
 ### Service Binaries
 
-filename | url | binary
+filename | url | tag
 -------- | --- | ------
-[Singleton bundle build](#) | [location](#) | [branch](#)/[commitid](#)
-[Singleton s3 build](#) | [location](#) | [branch](#)/[commitid](#)
+[Singleton bundle build](#) | [location](#) | [tagname](#)
+[Singleton s3 build](#) | [location](#) | [tagname](#)
 
 ### Client Binaries
 
-filename | url | binary
+filename | url | tag
 -------- | --- | ------
-[Java Client](#) | [location](#) | [branch](#)/[commitid](#)
-[Angular Client](#) | [location](#) | [branch](#)/[commitid](#)
-[JS Client](#) | [location](#) | [branch](#)/[commitid](#)
+[Java Client](#) | [location](#) | [branch](#)/[tagname](#)
+[Angular Client](#) | [location](#) | [branch](#)/[tagname](#)
+[JS Client](#) | [location](#) | [branch](#)/[tagname](#)
 
 ## Changelog since v0.1.0
 
