@@ -9,21 +9,24 @@ v0.2.0
 
 filename | url | tag
 -------- | --- | ------
-[Singleton bundle build](#) | [location](#) | [tagname](#)
-[Singleton s3 build](#) | [location](#) | [tagname](#)
+[Singleton bundle build](#) | [location](#) | branch/[tagname](#)
+[Singleton s3 build](#) | [location](#) | branch/[tagname](#)
 
 ### Client Binaries
 
 filename | url | tag
 -------- | --- | ------
-[Java Client](#) | [location](#) | [branch](#)/[tagname](#)
-[Angular Client](#) | [location](#) | [branch](#)/[tagname](#)
-[JS Client](#) | [location](#) | [branch](#)/[tagname](#)
+[Java Client](#) | [location](#) | branch/[tagname](#)
+[Angular Client](#) | [location](#) | branch/[tagname](#)
+[JS Client](#) | [location](#) | branch/[tagname](#)
 
 ## Changelog since v0.1.0
 
 ### Main Changes
+#### Service
 - [Singleton Service] ...
+
+#### SDK
 - [Angular Client] ...
 - [JAVA Client] ...
 - [JS Client] ...
