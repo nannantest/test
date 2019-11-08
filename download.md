@@ -1,5 +1,5 @@
 ---
-title: "Download and Installation"
+title: "Download"
 date: 2019-09-24T20:04:26+08:00
 draft: false
 Weight: 10
