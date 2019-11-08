@@ -7,15 +7,15 @@ Weight: 10
 
 After downloading Singleton Build from [Download](https://vmware.github.io/singleton/docs/get-started/download/) page, now you can setup Singleton to your environment.
 
-# Prerequisites
-* [JDK8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) is installed and works well on your environment, as Singleton Service is based on JAVA language development.
-* The ports (8088, 8090, 8091) are allowed to access and not in use, as Singleton service run based on these ports.
-
 # Installation
 ### Singleton Service
 Singleton Service include 2 types of build, one is i18n manager, one is l10n manager. 
 - I18n manager is the main build, it provides the [restful APIs](https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-apis/) to talk with Singleton SDK.
 - L10n manager will work together with I18n manager to achieve the feature [Source Collection](https://vmware.github.io/singleton/docs/overview/singleton-service/configurations/enable-source-collection/).
+
+**Prerequisites**
+* [JDK8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) is installed and works well on your environment, as Singleton Service is based on JAVA language development.
+* The ports (8088, 8090, 8091) are allowed to access and not in use, as Singleton service run based on these ports.
 
 **To start Singleton Service I18n manager**
 ```
