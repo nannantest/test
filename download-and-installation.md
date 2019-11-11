@@ -25,11 +25,11 @@ Singleton Service include 2 types of build, one is i18n manager, one is l10n man
 
 **To start Singleton Service I18n manager**
 ```
-java -jar singleton-manager-i18n-x.x.x.jar
+java -jar singleton-manager-i18n-0.1.0.jar
 ```
 **To Start Singleton Service L10n manager**
 ```
-java -jar singleton-manager-l10n-x.x.x..jar
+java -jar singleton-manager-l10n-0.1.0.jar
 ```
 
 # Singleton SDK 0.1.0 Binaries
