@@ -28,7 +28,7 @@ filename | sha1 hash | branch/tag
 - Support product white list ([#85](https://github.com/vmware/singleton/issues/85))
 - Sort strings in translation bundles in alphabet order ([#123](https://github.com/vmware/singleton/issues/123))
 - Support fetching translations of multiple components in one call ([#223](https://github.com/vmware/singleton/issues/223))
-- Add relative time category in i18n formatting pattern API ([#224](https://github.com/vmware/singleton/issues/224))
+- Add relative time category (dateFields) in i18n formatting pattern API ([#224](https://github.com/vmware/singleton/issues/224))
 
 #### SDK
 #### Java Client
