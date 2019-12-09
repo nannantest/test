@@ -38,7 +38,11 @@ filename | sha1 hash | branch/tag
 
 
 ### Known Issues
-N/A
+#### Service
+- Wrong localeID display when combination is valid while the pattern result is from different locale ([#311](https://github.com/vmware/singleton/issues/311))
+- The product-white-list configuration files don't be loaded from S3 storage ([#316](https://github.com/vmware/singleton/issues/316))
+- Failed to get translation for all translation related APIs in Singleton S3 build ([#317](https://github.com/vmware/singleton/issues/317))
+- Don't support version fallback in combination API ([#321](https://github.com/vmware/singleton/issues/321))
 
 
 ### Improvement
