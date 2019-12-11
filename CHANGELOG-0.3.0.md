@@ -29,12 +29,18 @@ filename | sha1 hash | branch/tag
 - Sort strings in translation bundles in alphabet order ([#123](https://github.com/vmware/singleton/issues/123))
 - Support fetching translations of multiple components in one call ([#223](https://github.com/vmware/singleton/issues/223))
 - Add relative time category (dateFields) in i18n formatting pattern API ([#224](https://github.com/vmware/singleton/issues/224))
+- Fixing - the Etag in the response header keeps on changing for the same GET request ([#102](https://github.com/vmware/singleton/issues/102))
+- Fixed - Singleton Service s3 build start failed based on https protocol ([#145](https://github.com/vmware/singleton/issues/145))
+- Fixed - Plurals rule doesn't follow with language ([#148](https://github.com/vmware/singleton/issues/148))
+- Fixed - The build failed to start when disable swagger-ui ([#151](https://github.com/vmware/singleton/issues/151))
+- Fixed - Failed to get translation when file(s) existing same location with component in Service S3 build ([#159](https://github.com/vmware/singleton/issues/159))
 
 #### SDK
 #### Java Client
 - Support customized header when sending request to Service ([#122](https://github.com/vmware/singleton/issues/122))
 - Support fetching translations of multiple components in one call ([#219](https://github.com/vmware/singleton/issues/219))
 - Support shared components ([#226](https://github.com/vmware/singleton/issues/226))
+- Fixed - Long source string is cut when being collected dynamically ([#307](https://github.com/vmware/singleton/issues/307))
 
 
 ### Known Issues
@@ -43,6 +49,7 @@ filename | sha1 hash | branch/tag
 - The product-white-list configuration files don't be loaded from S3 storage ([#316](https://github.com/vmware/singleton/issues/316))
 - Failed to get translation for all translation related APIs in Singleton S3 build ([#317](https://github.com/vmware/singleton/issues/317))
 - Don't support version fallback in combination API ([#321](https://github.com/vmware/singleton/issues/321))
+- Don't support product-white-list in combination API ([#322](https://github.com/vmware/singleton/issues/322))
 
 
 ### Improvement
