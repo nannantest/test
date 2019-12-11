@@ -9,9 +9,9 @@ v0.3.0
 
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.3.0/singleton-manager-i18n-s3-0.3.0.jar) | - | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/)
-[singleton-manager-i18n-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.3.0/singleton-manager-i18n-0.3.0.jar) | - | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/)
-[singleton-manager-l10n-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.3.0/singleton-manager-l10n-0.3.0.jar) | - | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/)
+[singleton-manager-i18n-s3-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.3.0/singleton-manager-i18n-s3-0.3.0.jar) | `bd96993ed3a9a77774ce314a5dc0d69e05bc4aaa` | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.3.0-Singleton-Service)
+[singleton-manager-i18n-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.3.0/singleton-manager-i18n-0.3.0.jar) | `4834268115be49ed1289cba41e2431c0b1636e91` | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.3.0-Singleton-Service)
+[singleton-manager-l10n-0.3.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.3.0/singleton-manager-l10n-0.3.0.jar) | `67d4fae94dae415c4e6fb07b4f43df91f4c1ef76` | master/[v0.3.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.3.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
