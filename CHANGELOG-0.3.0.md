@@ -16,7 +16,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java.jar](#) | No update | g11n-javaclient/[v0.3.0-Singleton-Javaclient]
+[singleton-client-java-0.3.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.3.0/singleton-client-java-0.3.0.jar) | `c6c13e73734fc0c69138417fcdb73737dc556b74` | g11n-javaclient/[v0.3.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.3.0-Singleton-Java-Client)
 [@singleton-i18n/js-core-sdk](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client) | - | No update
 
@@ -29,7 +29,7 @@ filename | sha1 hash | branch/tag
 - Sort strings in translation bundles in alphabet order ([#123](https://github.com/vmware/singleton/issues/123))
 - Support fetching translations of multiple components in one call ([#223](https://github.com/vmware/singleton/issues/223))
 - Add relative time category (dateFields) in i18n formatting pattern API ([#224](https://github.com/vmware/singleton/issues/224))
-- Fixing - the Etag in the response header keeps on changing for the same GET request ([#102](https://github.com/vmware/singleton/issues/102))
+- Fixed - the Etag in the response header keeps on changing for the same GET request ([#102](https://github.com/vmware/singleton/issues/102))
 - Fixed - Singleton Service s3 build start failed based on https protocol ([#145](https://github.com/vmware/singleton/issues/145))
 - Fixed - Plurals rule doesn't follow with language ([#148](https://github.com/vmware/singleton/issues/148))
 - Fixed - The build failed to start when disable swagger-ui ([#151](https://github.com/vmware/singleton/issues/151))
