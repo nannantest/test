@@ -12,7 +12,7 @@ The steps:
 1. To generate a Singleton Service build  or get a Singleton service build based on v0.3.0;
 
 2. Create a JSON file named as `bundle.json`, and put it into the folder `.\l10n\bundles\`.
-The content format like:
+The content like:
 
 ```
 {
@@ -21,3 +21,8 @@ The content format like:
 }
 ```
 The products list in thie file will be supported by Singleton Service, it's not related to *version*, only **productName**. 
+
+**Notes**:
+1. This configuration file will be loaded into cache when Singleton Service starts. Please restart Singleton Service if any changes for this configuration file. 
+
+2. If you use Singleton Service S3 build, please also put this configuration file into local folder `.\l10n\bundles\` with Singleton Service S3 build together. Don't move it to AWS storage.
