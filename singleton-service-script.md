@@ -34,7 +34,7 @@ This script is used to start, stop, and status detect Singleton Service, also re
 **Prepare:**
 Make sure that Singleton Service build (name like *singleton-xxx.jar*)  and *singletonall.sh* to same directory.
 
-**Usage:** `./singletonall.sh [options]`
+**Usage:**
 ```
 	./singletonall.sh [options]
 
