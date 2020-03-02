@@ -3,7 +3,7 @@ title: "Singleton Service build Script"
 date: 2019-09-24T20:05:55+08:00
 draft: false
 ---
-Singleton adds script files to help user to start/check/stop Singleton Service build.
+Singleton adds script files to help users simply to start/check/stop Singleton Service build.
 
 # How to generate Singleton Script
 The steps:
