@@ -29,7 +29,7 @@ singletonstop.sh
 # How to use Singleton Script
 
 ### singletonall.sh 
-This script is used to start, stop, and status detect Singleton Service, also restart it when something wrong in Singleton Service running .
+This script is used to start, stop, and detect the status of Singleton Service, also restart it if something wrong in Singleton Service running .
 
 **Prepare:**
 Make sure that Singleton Service build (name like *singleton-xxx.jar*)  and *singletonall.sh* to same directory.
