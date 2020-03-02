@@ -1,5 +1,5 @@
 ---
-title: "Singleton Service build Script"
+title: "Singleton Script"
 date: 2019-09-24T20:05:55+08:00
 draft: false
 ---
@@ -50,7 +50,7 @@ where options include:
 This script is used to start Singleton Service build name like singleton-xxx.jar by default, also can start specific xxx.jar app by given parameter. 
 
 **Prepare:**
-Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want to start, and *singletonstart.sh* to same directory.
+Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want, and *singletonstart.sh* to same directory.
 
 **Usages:** 
 ```
@@ -63,7 +63,7 @@ Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xx
 This script is used to check running status of singleton-xxx.jar by default, also can check the running status of any xxx.jar by given parameter. And it will restart the app when something wrong in running.
 
 **Prepare:**
-Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want to check,  and *singletoncheck.sh* to same directory.
+Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want,  and *singletoncheck.sh* to same directory.
 
 **Usage:**
 ```
@@ -77,7 +77,7 @@ or
 This script is used to stop Singleton Service build name like singleton-xxx.jar by default, also can stop specific xxx.jar app by given parameter.
 
 **Prepare:**
-Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want to check,  and *singletonstop.sh* to same directory.
+Make sure that Singleton Service build (name like *singleton-xxx.jar*) or any xxx.jar file you want,  and *singletonstop.sh* to same directory.
 
 **Usage:**
 ```
