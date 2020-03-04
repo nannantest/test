@@ -27,8 +27,8 @@ filename | sha1 hash | branch/tag
 #### Service
 - Add Singleton Service lite version to optimize performance ([#248](https://github.com/vmware/singleton/issues/248))
 - Singleton Service lite version also support AWS S3 storage ([#325](https://github.com/vmware/singleton/issues/325))
-- Add start-up/health-check script for Singleton Service, please refer to [Singleton Service Script](https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-script/)([#283](https://github.com/vmware/singleton/issues/283))
-- Add a new [**GET**] combination API to fix issue [#321](https://github.com/vmware/singleton/issues/321) and issue [#322](https://github.com/vmware/singleton/issues/322)
+- Add start-up/health-check script for Singleton Service, please refer to [Singleton Service Script](https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-script/) ([#283](https://github.com/vmware/singleton/issues/283))
+- Add a new **GET** combination API to fix issue ([#321](https://github.com/vmware/singleton/issues/321)) and issue ([#322](https://github.com/vmware/singleton/issues/322))
 - Fixed - Wrong localeID display when combination is valid while the pattern result is from different locale ([#311](https://github.com/vmware/singleton/issues/311))
 - Fixed - The product-white-list configuration files don't be loaded from S3 storage ([#316](https://github.com/vmware/singleton/issues/316))
 - Fixed - Failed to get translation for all translation related APIs in Singleton S3 build ([#317](https://github.com/vmware/singleton/issues/317))
@@ -46,11 +46,11 @@ For more details, please refer to [here](https://github.com/vmware/singleton/blo
 ### Known Issues
 #### Service
 - Don't support version fallback in getSupportedLanguageList API ([#338](https://github.com/vmware/singleton/issues/338))
-- Failed to get pattern data when request non-existing product in combination API([#372](https://github.com/vmware/singleton/issues/372))
+- Failed to get pattern data when request non-existing product in combination API ([#372](https://github.com/vmware/singleton/issues/372))
 - No parameter verification for some fileds in combination API ([#373](https://github.com/vmware/singleton/issues/373))
 
 #### Go Client
-- No translation returned if one of requesting component is not existing even though the another is available([#384](https://github.com/vmware/singleton/issues/384))
+- No translation returned if one of requesting component is not existing even though the another is available ([#384](https://github.com/vmware/singleton/issues/384))
 
 ### Improvement
 #### Service
