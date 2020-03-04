@@ -40,7 +40,7 @@ filename | sha1 hash | branch/tag
 - Support fetching translations of multiple components in one call ([#220](https://github.com/vmware/singleton/issues/220))
 
 #### Go Client
-This is a new Singleton SDK, we support translation-related APIs in current version ([343](https://github.com/vmware/singleton/issues/343)). 
+This is a new Singleton SDK, we support translation-related APIs in current version ([#343](https://github.com/vmware/singleton/issues/343)). 
 For more details, please refer to [here](https://github.com/vmware/singleton/blob/g11n-go-client/README.md).
 
 ### Known Issues
@@ -50,7 +50,7 @@ For more details, please refer to [here](https://github.com/vmware/singleton/blo
 - No parameter verification for some fileds in combination API ([#373](https://github.com/vmware/singleton/issues/373))
 
 #### Go Client
-- No translation returned if one of requesting component is not existing even though the another is available([384](https://github.com/vmware/singleton/issues/384))
+- No translation returned if one of requesting component is not existing even though the another is available([#384](https://github.com/vmware/singleton/issues/384))
 
 ### Improvement
 #### Service
