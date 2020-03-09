@@ -5,7 +5,7 @@
   - [Changelog since v0.4.0](#changelog-since-v040)
       - [Main Changes](#main-changes)
 - [v0.4.0](#v040)
-  - [Downloads for v0.4.0](#ddwnloads-for-v040)
+  - [Downloads for v0.4.0](#downloads-for-v040)
     - [Service Binaries](#service-binaries-1)
     - [Client Binaries](#client-binaries-1)
   - [Changelog since v0.3.0](#changelog-since-v030)
