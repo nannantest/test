@@ -1,6 +1,32 @@
+v0.4.1
+-------
+[Documentation](https://vmware.github.io/singleton/)
+
+## Downloads for v0.4.1
+
+filename | sha1 hash | branch/tag
+-------- | --- | ------
+[singleton-manager-i18n-s3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/) | - | No update
+[singleton-manager-i18n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/) | - | No update
+[singleton-manager-l10n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/) | - | No update
+
+### Client Binaries
+filename | sha1 hash | branch/tag
+-------- | --- | ------
+[singleton-client-java-0.4.1.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.1/singleton-client-java-0.4.1.jar) | No update | g11n-javaclient/[v0.4.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-Java-Client)
+[@singleton-i18n/js-core-sdk](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk) | - | No update
+[@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client) | - | No update
+[singleton-go-client](#) | - | No update
+
+## Changelog since v0.4.0
+
+### Main Changes
+#### SDK
+#### Java Client
+- Improve log level defination ([#416](https://github.com/vmware/singleton/pull/416))
+
 v0.4.0
 -------
-
 [Documentation](https://vmware.github.io/singleton/)
 
 ## Downloads for v0.4.0
@@ -9,14 +35,14 @@ v0.4.0
 
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.4.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.4.0/singleton-manager-i18n-s3-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
-[singleton-manager-i18n-0.4.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.4.0/singleton-manager-i18n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
-[singleton-manager-l10n-0.4.0.jar](http://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.4.0/singleton-manager-l10n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
+[singleton-manager-i18n-s3-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.4.0/singleton-manager-i18n-s3-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
+[singleton-manager-i18n-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.4.0/singleton-manager-i18n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
+[singleton-manager-l10n-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.4.0/singleton-manager-l10n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java) | No update | No update
+[singleton-client-java-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.0/singleton-client-java-0.4.0.jar) | No update | g11n-javaclient/[v0.4.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Java-Client)
 [@singleton-i18n/js-core-sdk](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk) | - | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client) | - | No update
 [singleton-go-client](#) | - | g11n-go-client/[v0.4.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Go-Client)
