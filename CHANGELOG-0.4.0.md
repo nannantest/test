@@ -1,3 +1,19 @@
+- [v0.4.1](#0.4.1)
+  - [Downloads for v0.4.1](#downloads-for-v0.4.1)
+    - [Service Binaries](#service-binaries)
+    - [Client Binaries](#client-binaries)
+  - [Changelog since v0.4.0](#)
+    - [Main Changes](#)
+- [v0.4.0](#0.4.0)
+  - [Downloads for v0.4.0](#)
+  - [Changelog since v0.3.0](#)
+    - [Main Changes](#)
+      - [Service](#)
+      - [SDK](#)
+    - [Known Iusses](#)
+    - [Improvement](#)
+    - [Action Required](#)
+
 v0.4.1
 -------
 [Documentation](https://vmware.github.io/singleton/)
