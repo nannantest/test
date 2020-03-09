@@ -4,6 +4,8 @@ v0.4.1
 
 ## Downloads for v0.4.1
 
+### Service Binaries
+
 filename | sha1 hash | branch/tag
 -------- | --- | ------
 [singleton-manager-i18n-s3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/) | - | No update
@@ -32,7 +34,6 @@ v0.4.0
 ## Downloads for v0.4.0
 
 ### Service Binaries
-
 filename | sha1 hash | branch/tag
 -------- | --- | ------
 [singleton-manager-i18n-s3-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.4.0/singleton-manager-i18n-s3-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
