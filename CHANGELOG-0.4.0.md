@@ -1,18 +1,20 @@
-- [v0.4.1](#0.4.1)
+- [v0.4.1](#v0.4.1)
   - [Downloads for v0.4.1](#downloads-for-v0.4.1)
     - [Service Binaries](#service-binaries)
     - [Client Binaries](#client-binaries)
-  - [Changelog since v0.4.0](#)
-    - [Main Changes](#)
-- [v0.4.0](#0.4.0)
-  - [Downloads for v0.4.0](#)
-  - [Changelog since v0.3.0](#)
-    - [Main Changes](#)
-      - [Service](#)
-      - [SDK](#)
-    - [Known Iusses](#)
-    - [Improvement](#)
-    - [Action Required](#)
+  - [Changelog since v0.4.0](#changelog-since-v0.4.0)
+      - [Main Changes](#main-changes)
+- [v0.4.0](#v0.4.0)
+  - [Downloads for v0.4.0](#ddwnloads-for-v0.4.0)
+    - [Service Binaries](#service-binaries-1)
+    - [Client Binaries](#client-binaries-1)
+  - [Changelog since v0.3.0](#changelog-since-v0.3.0)
+    - [Main Changes](#main-changes-1)
+      - [Service](#service)
+      - [SDK](#sdk)
+    - [Known Iusses](#known-issues)
+    - [Improvement](#improvement)
+    - [Action Required](#action-required)
 
 v0.4.1
 -------
@@ -24,9 +26,9 @@ v0.4.1
 
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/) | - | No update
-[singleton-manager-i18n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/) | - | No update
-[singleton-manager-l10n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/) | - | No update
+[singleton-manager-i18n-s3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.4.0/) | - | No update
+[singleton-manager-i18n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.4.0) | - | No update
+[singleton-manager-l10n.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.4.0) | - | No update
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
