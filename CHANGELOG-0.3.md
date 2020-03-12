@@ -18,7 +18,7 @@ filename | sha1 hash | branch/tag
 [singleton-client-java-0.3.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.3.0/singleton-client-java-0.3.0.jar) | `c6c13e73734fc0c69138417fcdb73737dc556b74` | g11n-javaclient/[v0.3.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.3.0-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.1.0) | - | No update
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.1.0) | - | No update
-[@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client) | - | No update
+[@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.1.0) | - | No update
 
 ## Changelog since v0.2.0
 
