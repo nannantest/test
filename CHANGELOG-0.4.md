@@ -34,8 +34,8 @@ filename | sha1 hash | branch/tag
 filename | sha1 hash | branch/tag
 -------- | --- | ------
 [singleton-client-java-0.4.1.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.1/singleton-client-java-0.4.1.jar) | `c17bad6f6ec4445dba484c1bb3c71a7937a1a340` | g11n-javaclient/[v0.4.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0) | - | No update
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0) | - | No update
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0--) | - | No update
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0--) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | No update
 
@@ -63,8 +63,8 @@ filename | sha1 hash | branch/tag
 filename | sha1 hash | branch/tag
 -------- | --- | ------
 [singleton-client-java-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.0/singleton-client-java-0.4.0.jar) | `39d05b34f706fd040d83b3ba9c066a8f9f85273c` | g11n-javaclient/[v0.4.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0) | - | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0) | - | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0--) | `` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0--) | `1c94f91c8a96ec622bf74896d1a6b4ad278397f3` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | g11n-go-client/[v0.4.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Go-Client)
 
