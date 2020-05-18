@@ -16,9 +16,9 @@ Singleton provides 2 ways to do this:
 ### Using Singleton API
 1. Go to Singleton Service swagger-ui: 
 ```
-[https://localhost:8090/i18n/api/doc/swagger-ui.html](#https://localhost:8090/i18n/api/doc/swagger-ui.html) 
+https://localhost:8090/i18n/api/doc/swagger-ui.html
 or 
-[http://localhost:8091/i18n/api/doc/swagger-ui.html](#http://localhost:8091/i18n/api/doc/swagger-ui.html);
+http://localhost:8091/i18n/api/doc/swagger-ui.html
 ```
 
 2. Switch to v2 in **Select a spec** on upper right corner; 
@@ -38,6 +38,6 @@ Notes:
 
 - You can ignore the input for parameters: *operationid/dataOrigin/machineTranslation/pseudo/requester*, these parameters are used for vmware internal translation server;
 
-- For **locale** defination, please refer to CLDR [availableLocales](#https://github.com/unicode-cldr/cldr-core/blob/master/availableLocales.json) and [defaultContent](#https://github.com/unicode-cldr/cldr-core/blob/master/defaultContent.json)
+- For **locale** defination, please refer to CLDR [availableLocales](https://github.com/unicode-cldr/cldr-core/blob/master/availableLocales.json) and [defaultContent](https://github.com/unicode-cldr/cldr-core/blob/master/defaultContent.json)
 
 ### Copy translation bundle to the location that Singleton Service reads
