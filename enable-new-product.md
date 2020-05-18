@@ -62,6 +62,6 @@ By default, it's same location with the Singleton service jar file, to find `tra
 }
 ```
 
-3. Copy your translation bundle file(s) to `.\l10n\bundles\{productName}\{version}\{componentName}`, then restart Singleton Service to fetch the translation, to refresh cache.
+3. Copy your translation bundle file(s) to `.\l10n\bundles\{productName}\{version}\{componentName}`, then restart Singleton Service to fetch the translation, need to refresh cache first.
 
 4. Singleton support multiple components defination, you can distinguish your resource by more than one components. 
