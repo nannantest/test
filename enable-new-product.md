@@ -41,3 +41,25 @@ Notes:
 - For **locale** defination, please refer to CLDR [availableLocales](https://github.com/unicode-cldr/cldr-core/blob/master/availableLocales.json) and [defaultContent](https://github.com/unicode-cldr/cldr-core/blob/master/defaultContent.json)
 
 ### Copy translation bundle to the location that Singleton Service reads
+1. Check the translation localtion in `singleton-0.1.0.jar\BOOT-INF\classes\application-bundle.properties`
+```
+#translation config
+#the follow item the Directory can't end of file separator
+translation.bundle.file.basepath =.
+translation.synch.git.flag = true
+```
+By default, it's same location with the Singleton service jar file, to look at `translation.bundle.file.basepath`.
+
+2. Create your translation bundle file following the structure, and name your file "messages_xx.json" (for example: messages_en.json):
+```
+{
+	"component": "componentName",
+	"locale": "en",
+	"messages": {
+		"key1": "value1",
+		"key2": "value2"
+	}
+}
+```
+
+3. Copy your translation bunele files to `.\l10n\bundles\{productName}\{version}\{componentName}`, then restart Singleton Service to fetch the translation, as to refresh cache.
