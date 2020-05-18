@@ -23,7 +23,7 @@ http://localhost:8091/i18n/api/doc/swagger-ui.html
 
 2. Switch to v2 in **Select a spec** on upper right corner; 
 
-3. Go to and expand *translation-sync-api*, you will find an API as below:
+3. Find and expand *translation-sync-api*, you will get an API as below:
 
 `PUT /i18n/api/v2/translation/products/{productName}/versions/{version} Update translation`
 
@@ -31,7 +31,7 @@ http://localhost:8091/i18n/api/doc/swagger-ui.html
 
 5. Input your `productName/version/component/locale` and the translation messages;
 
-6. Verify everthing is fine, click **Execute**, then the translation message will be pushed into Singleton Service, please use other **GET** API(s) to fetch the translation.
+6. Verify everything is fine, click **Execute**, then the translation message will be pushed into Singleton Service, please use other **GET** API(s) to fetch the translation.
 
 Notes:
 - **productName/version** should be match with the value in **translationData**;
@@ -41,16 +41,16 @@ Notes:
 - For **locale** defination, please refer to CLDR [availableLocales](https://github.com/unicode-cldr/cldr-core/blob/master/availableLocales.json) and [defaultContent](https://github.com/unicode-cldr/cldr-core/blob/master/defaultContent.json)
 
 ### Copy translation bundle to the location that Singleton Service reads
-1. Check the translation localtion in `singleton-0.1.0.jar\BOOT-INF\classes\application-bundle.properties`
+1. Check the translation location in `singleton-0.1.0.jar\BOOT-INF\classes\application-bundle.properties`
 ```
 #translation config
 #the follow item the Directory can't end of file separator
 translation.bundle.file.basepath =.
 translation.synch.git.flag = true
 ```
-By default, it's same location with the Singleton service jar file, to look at `translation.bundle.file.basepath`.
+By default, it's same location with the Singleton service jar file, to find `translation.bundle.file.basepath`.
 
-2. Create your translation bundle file following the structure, and name your file "messages_xx.json" (for example: messages_en.json):
+2. Create your translation bundle file(s) following the structure as below, and name your file like "messages_xx.json" (for example: messages_en.json):
 ```
 {
 	"component": "componentName",
@@ -62,4 +62,6 @@ By default, it's same location with the Singleton service jar file, to look at `
 }
 ```
 
-3. Copy your translation bunele files to `.\l10n\bundles\{productName}\{version}\{componentName}`, then restart Singleton Service to fetch the translation, as to refresh cache.
+3. Copy your translation bundle file(s) to `.\l10n\bundles\{productName}\{version}\{componentName}`, then restart Singleton Service to fetch the translation, to refresh cache.
+
+4. Singleton support multiple components defination, you can distinguish your resource by more than one components. 
