@@ -45,7 +45,7 @@ filename | sha1 hash | branch/tag
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | No update
 
-## Changelog since v0.4.0
+## Changelog since v0.4.1
 
 ### Main Changes
 #### SDK
