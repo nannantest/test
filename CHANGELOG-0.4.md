@@ -39,9 +39,9 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.2.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.2.jar) | `59cc02a7720bcc8d35e2074a2ab6a2d35a1ac8cb` | g11n-javaclient/[v0.4.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | - | g11n-js-client/[v0.4.1-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-JS-Client)
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | - | g11n-js-client/[v0.4.1-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-JS-Client)
+[singleton-client-java-0.4.2.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.2.jar) | `59cc02a7720bcc8d35e2074a2ab6a2d35a1ac8cb` | g11n-javaclient/[v0.4.2-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.2-Singleton-Java-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | - | No update
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | No update
 
