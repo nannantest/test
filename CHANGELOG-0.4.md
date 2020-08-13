@@ -51,7 +51,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.4.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.2.jar) | `dda7eb17a0c4b29d16386c5caa1f2681a97731f7` | g11n-javaclient/[v0.4.4-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.4-Singleton-Java-Client)
+[singleton-client-java-0.4.4.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.4/singleton-client-java-0.4.4.jar) | `dda7eb17a0c4b29d16386c5caa1f2681a97731f7` | g11n-java-client-0.4.2/[v0.4.4-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.4-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | - | No update
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
@@ -82,7 +82,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.3.jar) | `fbd55b822497d3df7dbab1b1369299fa3789d39b` | g11n-javaclient/[v0.4.3-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.3-Singleton-Java-Client)
+[singleton-client-java-0.4.3.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.3/singleton-client-java-0.4.3.jar) | `fbd55b822497d3df7dbab1b1369299fa3789d39b` | g11n-java-client-0.4.2/[v0.4.3-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.3-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | - | No update
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
@@ -113,7 +113,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.2.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.2.jar) | `59cc02a7720bcc8d35e2074a2ab6a2d35a1ac8cb` | g11n-javaclient/[v0.4.2-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.2-Singleton-Java-Client)
+[singleton-client-java-0.4.2.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.2/singleton-client-java-0.4.2.jar) | `59cc02a7720bcc8d35e2074a2ab6a2d35a1ac8cb` | g11n-java-client/[v0.4.2-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.2-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | - | No update
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
@@ -144,7 +144,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.1.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.1/singleton-client-java-0.4.1.jar) | `c17bad6f6ec4445dba484c1bb3c71a7937a1a340` | g11n-javaclient/[v0.4.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-Java-Client)
+[singleton-client-java-0.4.1.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.1/singleton-client-java-0.4.1.jar) | `c17bad6f6ec4445dba484c1bb3c71a7937a1a340` | g11n-java-client/[v0.4.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.1) | `c88be0515010119ae477a8e96e8dbb808c89eac6` | g11n-js-client/[v0.4.1-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-JS-Client)
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.1) | `472a3663ff9e6c93846c3df6ffc6c987162dc429` | g11n-js-client/[v0.4.1-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.1-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
@@ -176,7 +176,7 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.0/singleton-client-java-0.4.0.jar) | `39d05b34f706fd040d83b3ba9c066a8f9f85273c` | g11n-javaclient/[v0.4.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Java-Client)
+[singleton-client-java-0.4.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.0/singleton-client-java-0.4.0.jar) | `39d05b34f706fd040d83b3ba9c066a8f9f85273c` | g11n-java-client/[v0.4.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0--) | `89aa1ed41c02c31add243e923653d6b3f9adb7af` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0--) | `1c94f91c8a96ec622bf74896d1a6b4ad278397f3` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
