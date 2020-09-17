@@ -20,18 +20,18 @@ v0.5.0
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.4.0/singleton-manager-i18n-s3-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
-[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.4.0/singleton-manager-i18n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
-[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.4.0/singleton-manager-l10n-0.4.0.jar) | `` | master/[v0.4.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Service)
+[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.4.0/singleton-client-java-0.5.0.jar) | `c8db72dd399af38be5682bd4fa4f59325b486170` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.4.0--) | `89aa1ed41c02c31add243e923653d6b3f9adb7af` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.4.0--) | `1c94f91c8a96ec622bf74896d1a6b4ad278397f3` | g11n-js-client/[v0.4.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-JS-Client)
+[singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.0/singleton-client-java-0.5.0.jar) | `c8db72dd399af38be5682bd4fa4f59325b486170` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Java-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | `89aa1ed41c02c31add243e923653d6b3f9adb7af` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | `1c94f91c8a96ec622bf74896d1a6b4ad278397f3` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
-[singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | g11n-go-client/[v0.4.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.4.0-Singleton-Go-Client)
+[singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | g11n-go-client/[v0.5.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Go-Client)
 
 ## Changelog since v0.4.0
 
