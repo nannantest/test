@@ -54,16 +54,21 @@ filename | sha1 hash | branch/tag
 - Fixed - Missing settings.gradle under tools\tool-cldr-extractor ([#651](https://github.com/vmware/singleton/issues/651))
 
 #### SDK
+#### JAVA Client
+
 #### JS Client
 
 #### Go Client
 
+#### C# Client
+
+#### Python Client
 
 ### Known Issues
 #### Service
 
-
 #### Go Client
+
 
 ### Improvement
 #### Service
