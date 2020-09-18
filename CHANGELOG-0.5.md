@@ -76,5 +76,5 @@ filename | sha1 hash | branch/tag
 #### JS Client
 
 ### Action Required
-- The **POST** combination will be deprecated, please replace it by **GET**
-- [Singleton Service APIs] Remove fallback to en content when the translation no exist for request locale ([#468](https://github.com/vmware/singleton/issues/468)), please pay attention if you use Singleton Service API directly, suggest to use Singleton Client to avoid this kind of issue
+- The **POST** combination API will be deprecated, please replace it by **GET** API
+- Remove fallback to en content when the translation no exist for request locale ([#468](https://github.com/vmware/singleton/issues/468)), please pay attention if you use Singleton Service API directly, suggest to use Singleton Client to avoid this kind of issue
