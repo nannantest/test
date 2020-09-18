@@ -10,7 +10,6 @@
     - [Improvement](#improvement)
     - [Action Required](#action-required)
 
-
 v0.5.0
 -------
 [Documentation](https://vmware.github.io/singleton/)
@@ -28,8 +27,8 @@ filename | sha1 hash | branch/tag
 filename | sha1 hash | branch/tag
 -------- | --- | ------
 [singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.0/singleton-client-java-0.5.0.jar) | `c8db72dd399af38be5682bd4fa4f59325b486170` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | `89aa1ed41c02c31add243e923653d6b3f9adb7af` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | `1c94f91c8a96ec622bf74896d1a6b4ad278397f3` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | `` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | `` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | g11n-go-client/[v0.5.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Go-Client)
 
@@ -37,41 +36,45 @@ filename | sha1 hash | branch/tag
 
 ### Main Changes
 #### Service
-- Add Singleton Service lite version to optimize performance ([#248](https://github.com/vmware/singleton/issues/248))
-- Singleton Service lite version also support AWS S3 storage ([#325](https://github.com/vmware/singleton/issues/325))
-- Add start-up/health-check script for Singleton Service, please refer to [Singleton Service Script](https://vmware.github.io/singleton/docs/overview/singleton-service/singleton-service-script/) ([#283](https://github.com/vmware/singleton/issues/283))
-- Add a new **GET** combination API to fix issue ([#321](https://github.com/vmware/singleton/issues/321)) and issue ([#322](https://github.com/vmware/singleton/issues/322))
-- Fixed - Wrong localeID display when combination is valid while the pattern result is from different locale ([#311](https://github.com/vmware/singleton/issues/311))
-- Fixed - The product-white-list configuration files don't be loaded from S3 storage ([#316](https://github.com/vmware/singleton/issues/316))
-- Fixed - Failed to get translation for all translation related APIs in Singleton S3 build ([#317](https://github.com/vmware/singleton/issues/317))
-- Fixed - The pseudo tag is repeated depends on the calls counts with translation-product-api ([#336](https://github.com/vmware/singleton/issues/336))
-- Fixed - NullPointerException occurs in scheduled task in Singleton Service lite version ([#346](https://github.com/vmware/singleton/issues/346))
+- Support more fomatting options for langauge displayName in getSupportedLanguageList API ([#361](https://github.com/vmware/singleton/issues/361))
+- Add etag/max-age in Translation APIs response ([#442](https://github.com/vmware/singleton/issues/442))
+- Support to customize more items for cache-control ([#482](https://github.com/vmware/singleton/issues/482))
+- Add scopeFilter to pattern API ([#515](https://github.com/vmware/singleton/issues/515))
+- Add pattern data about compact number formats ([#555](https://github.com/vmware/singleton/issues/555))
+- Add Microsoft Translator API Regional Source Support ([#566](https://github.com/vmware/singleton/pull/566))
+- Support to customize API request header buffer size ([#586](https://github.com/vmware/singleton/issues/586))
+- Add pattern data numberingSystems for Numbers ([#616](https://github.com/vmware/singleton/issues/616)) 
+- Add key-based GET API ([#648](https://github.com/vmware/singleton/issues/648))
+- Add API to GET localized city name list ([#675](https://github.com/vmware/singleton/issues/675)), currently only English city name returned
+- Compress Singleton Service responses to improve UI performance ([#747](https://github.com/vmware/singleton/issues/747))
+- Fixed - Don't support version fallback in getSupportedLanguageList API ([#338](https://github.com/vmware/singleton/issues/338))
+- Fixed - Add copyright and license info in more code files ([#366](https://github.com/vmware/singleton/issues/366), [#397](https://github.com/vmware/singleton/issues/397))
+- Fixed - Failed to get pattern data when request non-existing product in combination API ([#372](https://github.com/vmware/singleton/issues/372))
+- Fixed - No parameter verification for some fileds in combination API ([#373](https://github.com/vmware/singleton/issues/373), [#495](https://github.com/vmware/singleton/issues/495))
+- Fixed - Missing settings.gradle under tools\tool-cldr-extractor ([#651](https://github.com/vmware/singleton/issues/651))
 
 #### SDK
 #### JS Client
-- Support fetching translations of multiple components in one call ([#220](https://github.com/vmware/singleton/issues/220))
 
 #### Go Client
-This is a new Singleton SDK, we support translation-related APIs in current version ([#343](https://github.com/vmware/singleton/issues/343)). 
-For more details, please refer to [here](https://github.com/vmware/singleton/blob/g11n-go-client/README.md).
+
 
 ### Known Issues
 #### Service
-- Don't support version fallback in getSupportedLanguageList API ([#338](https://github.com/vmware/singleton/issues/338))
-- Failed to get pattern data when request non-existing product in combination API ([#372](https://github.com/vmware/singleton/issues/372))
-- No parameter verification for some fileds in combination API ([#373](https://github.com/vmware/singleton/issues/373))
+
 
 #### Go Client
-- No translation returned if one of requesting component is not existing even though the another is available ([#384](https://github.com/vmware/singleton/issues/384))
 
 ### Improvement
 #### Service
-- Upgrade tomcat to 9.0.30 ([#355](https://github.com/vmware/singleton/issues/355))
-- Upgrade snakeyaml to 1.25 ([#339](https://github.com/vmware/singleton/issues/339))
-- Upgrade spring boot to 2.2.4.RELEASE and  spring framework to 5.2.3.RELEASE ([#368](https://github.com/vmware/singleton/issues/368))
+- Upgrade tomcat to 9.0.37 ([#665](https://github.com/vmware/singleton/issues/665))
+- Upgrade ant to 1.10.8 ([#613](https://github.com/vmware/singleton/issues/613))
+- Upgrade log4j to 2.13.2 ([#563](https://github.com/vmware/singleton/issues/563))
+- Upgrade guava to 20.0 ([#581](https://github.com/vmware/singleton/issues/581))
+- Upgrade jackson-databind to 2.11.2, commons-collections to 3.2.2 ([#737](https://github.com/vmware/singleton/issues/737))
 
 #### JS Client
-- Optimize code format: change double quotes to single quotes ([#338](https://github.com/vmware/singleton/issues/338))
 
 ### Action Required
-N/A
+- The **POST** combination will be deprecated, please replace it by **GET**
+- [Singleton Service APIs] Remove fallback to en content when the translation no exist for request locale ([#468](https://github.com/vmware/singleton/issues/468)), please pay attention if you use Singleton Service API directly, suggest to use Singleton Client to avoid this kind of issue
