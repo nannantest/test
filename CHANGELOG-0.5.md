@@ -55,20 +55,31 @@ filename | sha1 hash | branch/tag
 
 #### SDK
 #### JAVA Client
-
-#### JS Client
+- Improve cache mechanism ([#439](https://github.com/vmware/singleton/issues/439))
+- Add capability of loading local translation bundle ([#444](https://github.com/vmware/singleton/issues/444)); Please refere to [#here](https://vmware.github.io/singleton/docs/overview/singleton-sdk/java-client-introduction/) for more details.
+- Updating the sample application to support offline mode ([#556](https://github.com/vmware/singleton/pull/556))
+- Add sample code about using shared product ([#725](https://github.com/vmware/singleton/issues/725))
+- Fixed - Error logging for Unsuccessful L10n Fetch ([#544](https://github.com/vmware/singleton/pull/544))
+- Fixed - Wrong process when judging cache item expiration ([#604](https://github.com/vmware/singleton/issues/604))
+- Fixed - Failed to initialize client when initializeCache=true in pure offline mode ([#661](https://github.com/vmware/singleton/issues/661))
+- Fixed - When getMessage() returns to default locale's translation, cache can't get updated translation(default locale) after it is expired ([#662](https://github.com/vmware/singleton/issues/662))
+- Fixed - When getMessages() returns to default locale's translation, cache can't get updated translation(default locale) after it is expired. ([#664](https://github.com/vmware/singleton/issues/664))
+- Fixed - If cache item is expired, and online bundle fetch failed, offline fetch is triggered ([#686](https://github.com/vmware/singleton/issues/686))
+- Fixed - TranslationMessage.getMessage for non-supported locales always triggers a request to VIP service in a separate thread ([#717](https://github.com/vmware/singleton/issues/717))
+- Fixed - MsgOriginsQueue cannot be cleared once initializing VIPCfg ([#746](https://github.com/vmware/singleton/issues/746))
 
 #### Go Client
-
-#### C# Client
-
-#### Python Client
+- Improve cache mechanism ([#440](https://github.com/vmware/singleton/issues/440))
+- Remove multiple component API in go client ([#419](https://github.com/vmware/singleton/issues/419))
+- Fixed - Wrong process when judging cache item expiration ([#606](https://github.com/vmware/singleton/issues/606))
+- Fixed - Offline fetch is triggered when cache item is expired and online bundle fetch failed ([#692](https://github.com/vmware/singleton/issues/692))
+- Fixed - Can't get translation when version fallback occured in service ([#694](https://github.com/vmware/singleton/issues/694))
 
 ### Known Issues
 #### Service
 
 #### Go Client
-
+- Unit test case 'TestGetStringAbnormal' failed ([#995](https://github.com/vmware/singleton/issues/995))
 
 ### Improvement
 #### Service
