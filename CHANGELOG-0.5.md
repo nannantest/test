@@ -26,9 +26,38 @@ filename | sha1 hash | branch/tag
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
+[singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.0/singleton-client-java-0.5.0.jar) | `` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.1-Singleton-Java-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | - | No update
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | - | No update
+[@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
+[singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | No update
+
+## Changelog since v0.5.0
+
+### Main Changes
+#### SDK
+#### JAVA Client
+- Improve cache mechanism ([#439](https://github.com/vmware/singleton/issues/439))
+
+v0.5.0
+-------
+[Documentation](https://vmware.github.io/singleton/)
+
+## Downloads for v0.5.0
+
+### Service Binaries
+filename | sha1 hash | branch/tag
+-------- | --- | ------
+[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+
+### Client Binaries
+filename | sha1 hash | branch/tag
+-------- | --- | ------
 [singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.0/singleton-client-java-0.5.0.jar) | `c8db72dd399af38be5682bd4fa4f59325b486170` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Java-Client)
-[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | `` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
-[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | `` | g11n-js-client/[v0.5.0-Singleton-JS-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-JS-Client)
+[@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | - | No update
+[@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
 [singleton-go-client](https://github.com/vmware/singleton/tree/g11n-go-client) | - | g11n-go-client/[v0.5.0-Singleton-Go-Client](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Go-Client)
 
@@ -88,8 +117,6 @@ filename | sha1 hash | branch/tag
 - Upgrade log4j to 2.13.2 ([#563](https://github.com/vmware/singleton/issues/563))
 - Upgrade guava to 20.0 ([#581](https://github.com/vmware/singleton/issues/581))
 - Upgrade jackson-databind to 2.11.2, commons-collections to 3.2.2 ([#737](https://github.com/vmware/singleton/issues/737))
-
-#### JS Client
 
 ### Action Required
 - The **POST** combination API will be **Deprecated**, please replace it by **GET** API
