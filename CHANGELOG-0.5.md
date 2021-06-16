@@ -10,23 +10,23 @@
     - [Improvement](#improvement)
     - [Action Required](#action-required)
 
-v0.5.0
+v0.5.1
 -------
 [Documentation](https://vmware.github.io/singleton/)
 
-## Downloads for v0.5.0
+## Downloads for v0.5.1
 
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
-[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
-[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | - | No update
+[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | - | No update
+[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | - | No update
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-client-java-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.0/singleton-client-java-0.5.0.jar) | `` | g11n-java-client/[v0.5.0-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.1-Singleton-Java-Client)
+[singleton-client-java-0.5.1.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.5.1/singleton-client-java-0.5.1.jar) | `ccfa8ca6b5de896861bda7f4a5ed89bece3ca9b0` | g11n-java-client/[v0.5.1-Singleton-Javaclient](https://github.com/vmware/singleton/releases/tag/v0.5.1-Singleton-Java-Client)
 [@singleton-i18n/js-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk/v/0.5.0--) | - | No update
 [@singleton-i18n/nodejs-client](https://www.npmjs.com/package/@singleton-i18n/js-core-sdk-server/v/0.5.0--) | - | No update
 [@singleton-i18n/angular-client](https://www.npmjs.com/package/@singleton-i18n/angular-client/v/0.2.0) | - | No update
@@ -48,9 +48,9 @@ v0.5.0
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
-[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
-[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | `` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-i18n-s3-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.5.0/singleton-manager-i18n-s3-0.5.0.jar) | `71118c84c5bec1b3c7856f78e8b1f1c9d46ded26` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-i18n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.5.0/singleton-manager-i18n-0.5.0.jar) | `99ce6e694e070cb5c8f0774ce8fd636a9cb25f95` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
+[singleton-manager-l10n-0.5.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.5.0/singleton-manager-l10n-0.5.0.jar) | `fa2ab395d34934b5a6ed6ae87b90c53bb8f55585` | master/[v0.5.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.5.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
