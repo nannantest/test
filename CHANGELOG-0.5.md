@@ -13,7 +13,7 @@
   - [Changelog since v0.4.0](#changelog-since-v040)
     - [Main Changes](#main-changes-1)
       - [Service](#service)
-      - [SDK](#sdk-1)
+      - [SDK](#sdk-2)
     - [Known Iusses](#known-issues)
     - [Improvement](#improvement-1)
     - [Action Required](#action-required)
