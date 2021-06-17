@@ -5,7 +5,7 @@
   - [Changelog since v0.5.0](#changelog-since-v050)
     - [Main Changes](#main-changes)
       - [SDK](#sdk)
-    - Improvement](#improvement)
+    - [Improvement](#improvement)
 - [v0.5.0](#v050)
   - [Downloads for v0.5.0](#downloads-for-v050)
     - [Service Binaries](#service-binaries-1)
