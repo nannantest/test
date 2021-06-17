@@ -1,11 +1,18 @@
-- [v0.5.0](#v050)
-  - [Downloads for v0.5.0](#downloads-for-v050)
+- [v0.5.1](#v051)
+  - [Downloads for v0.5.1](#downloads-for-v051)
     - [Service Binaries](#service-binaries)
     - [Client Binaries](#client-binaries)
-  - [Changelog since v0.4.0](#changelog-since-v040)
+  - [Changelog since v0.5.0](#changelog-since-v050)
     - [Main Changes](#main-changes)
-      - [Service](#service)
       - [SDK](#sdk)
+- [v0.5.0](#v050)
+  - [Downloads for v0.5.0](#downloads-for-v050)
+    - [Service Binaries](#service-binaries-1)
+    - [Client Binaries](#client-binaries-1)
+  - [Changelog since v0.4.0](#changelog-since-v040)
+    - [Main Changes](#main-changes-1)
+      - [Service](#service)
+      - [SDK](#sdk-1)
     - [Known Iusses](#known-issues)
     - [Improvement](#improvement)
     - [Action Required](#action-required)
@@ -37,7 +44,18 @@ filename | sha1 hash | branch/tag
 ### Main Changes
 #### SDK
 #### JAVA Client
-- Improve cache mechanism ([#439](https://github.com/vmware/singleton/issues/439))
+- Support for replacing placeholders/arguments using MAP (placeholder key, replacing value) in the message ([#618](https://github.com/vmware/singleton/issues/618))
+- Fixed - ComponentService.getMessages is not retrieving "matchedLocale" properly ([#781](https://github.com/vmware/singleton/issues/781))
+- Fixed - New workflow's Translation.getMessage must be able to use latest source messages from VIP service ([#812](https://github.com/vmware/singleton/issues/812))
+- Fixed - The offlineResourceBaseURL inside a shared lib is not being read if main app is is run from IDE and not built as an executable jar ([#868](https://github.com/vmware/singleton/issues/868))
+- Fixed - Non-blocking getSupportedLocales when fetching messages ([#877](https://github.com/vmware/singleton/issues/877))
+- Fixed - Java client offline mode fails in nested-jar applications such as Spring Boot([#882](https://github.com/vmware/singleton/issues/882))
+
+### Improvement
+#### SDK
+#### JAVA Client
+- Upgrade to Java 11 in sonar cloud scan([#709](https://github.com/vmware/singleton/issues/709)) 
+- Upgrade jackson to 2.11.2 ([#779](https://github.com/vmware/singleton/issues/779))
 
 v0.5.0
 -------
