@@ -19,9 +19,9 @@ v0.6.2
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.6.0/singleton-manager-i18n-s3-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `5020d7f161489e0a0f4d9faf9b1d50450c419fed` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-lite-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-lite/0.6.0/singleton-manager-i18n-lite-0.6.0.jar) | `5b0dc1c21b09d89ec7b6a0d3b359644eb78bf363` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `3c83800ebcaae787f26ec25242e2d1f92c7be747` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
@@ -52,9 +52,9 @@ v0.6.1
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.6.0/singleton-manager-i18n-s3-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `5020d7f161489e0a0f4d9faf9b1d50450c419fed` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-lite-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-lite/0.6.0/singleton-manager-i18n-lite-0.6.0.jar) | `5b0dc1c21b09d89ec7b6a0d3b359644eb78bf363` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `3c83800ebcaae787f26ec25242e2d1f92c7be747` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
@@ -78,9 +78,6 @@ filename | sha1 hash | branch/tag
 ### Known Issues
 #### Service
 
-#### Go Client
-- 
-
 
 v0.6.0
 -------
@@ -91,9 +88,9 @@ v0.6.0
 ### Service Binaries
 filename | sha1 hash | branch/tag
 -------- | --- | ------
-[singleton-manager-i18n-s3-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-s3/0.6.0/singleton-manager-i18n-s3-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
-[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n/0.6.0/singleton-manager-i18n-0.6.0.jar) | `5020d7f161489e0a0f4d9faf9b1d50450c419fed` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-i18n-lite-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-i18n-lite/0.6.0/singleton-manager-i18n-lite-0.6.0.jar) | `5b0dc1c21b09d89ec7b6a0d3b359644eb78bf363` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
+[singleton-manager-l10n-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-manager-l10n/0.6.0/singleton-manager-l10n-0.6.0.jar) | `3c83800ebcaae787f26ec25242e2d1f92c7be747` | master/[v0.6.0-Singleton-Service](https://github.com/vmware/singleton/releases/tag/v0.6.0-Singleton-Service)
 
 ### Client Binaries
 filename | sha1 hash | branch/tag
@@ -109,6 +106,7 @@ filename | sha1 hash | branch/tag
 
 ### Main Changes
 #### Service
+- Publish a new lite Singleton Service build
 - Print request header in log ([#796](https://github.com/vmware/singleton/issues/796))
 - Change "white list" to "support list" in Singleton Service ([#876](https://github.com/vmware/singleton/issues/876))
 - Support reading encrypted S3 access key ([#893](https://github.com/vmware/singleton/issues/893))
@@ -156,10 +154,14 @@ filename | sha1 hash | branch/tag
 
 #### SDK
 #### JAVA Client
--
-
-#### Go Client
--
+- Support for named parameters in new API method getMessage ([#854](https://github.com/vmware/singleton/issues/854))
+- add support for .properties source files in TranslationMessage.getMessage ([#860](https://github.com/vmware/singleton/issues/860))
+- Add message fallback cases to TranslationMessageTest.testNamedArgs ([#955](https://github.com/vmware/singleton/issues/955))
+- Fixed -L2 cache items are being marked as "not expired" by extending the timestamp even if fetch from data source failed ([#841](https://github.com/vmware/singleton/issues/841))
+- Fixed - Please upgrade dependency libraries to latest version ([#996](https://github.com/vmware/singleton/issues/996))
+- Fixed - Numerous error logs is seen from LocalMessagesOpt ([#1025](https://github.com/vmware/singleton/issues/1025))
+- Fixed - No exception pops up when requesting non-existent key with resourceBundle parameter in getMessage() API ([#1038](https://github.com/vmware/singleton/issues/1038))
+- Fixed - Pattern interface can't identify the response data when response code is 207 ([#1177](https://github.com/vmware/singleton/issues/1177))
 
 #### Python Client
 This is a new Singleton SDK, we support translation-related APIs in current version. For more details, please refer to [here](https://github.com/vmware/singleton/blob/g11n-python-client/README.md).
@@ -167,8 +169,6 @@ This is a new Singleton SDK, we support translation-related APIs in current vers
 ### Known Issues
 #### Service
 
-#### Go Client
-- 
 
 ### Improvement
 #### Service
@@ -180,4 +180,4 @@ This is a new Singleton SDK, we support translation-related APIs in current vers
 - Upgrade dependency libs: tomcat, log4j, guava, slf4j, ant etc. ([#815](https://github.com/vmware/singleton/issues/815), [#842](https://github.com/vmware/singleton/issues/842), [#921](https://github.com/vmware/singleton/issues/921), [#953](https://github.com/vmware/singleton/issues/953), [#954](https://github.com/vmware/singleton/issues/954), [#1040](https://github.com/vmware/singleton/issues/1040), [#1091](https://github.com/vmware/singleton/issues/1091), [#1163](https://github.com/vmware/singleton/issues/1163), [#1176](https://github.com/vmware/singleton/issues/1176), [#1185](https://github.com/vmware/singleton/issues/1185), [#1217](https://github.com/vmware/singleton/issues/1217)) 
 
 ### Action Required
-- 
+- If you install Singleton Service S3 build on your side, please switch to Singleton Comman build [singleton-client-java-0.6.0.jar](https://repo1.maven.org/maven2/com/vmware/singleton/singleton-client-java/0.6.0/singleton-client-java-0.6.0.jar) for new features.
